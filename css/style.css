@@ -434,7 +434,7 @@ th {
   }
 
   h2 , h3 {
-    font-size: 24.5px;
+    font-size: 24px;
     font-weight: bold;
     color: #9e9e9e;
   }
@@ -573,7 +573,7 @@ th {
     -webkit-border-radius: 0;
     border-radius: 0;
     font-family: "Lato", sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 21px;
     background-color: #A49D4C;
     color: #fff;
@@ -595,7 +595,7 @@ th {
     -webkit-border-radius: 0px;
     border-radius: 0px;
     border: 1px solid #ccc;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 31.5px;
     height: 31.5px;
     margin-right: 3px;
@@ -660,7 +660,7 @@ th {
   #wrap {
     overflow: hidden;
     background: #fff;
-    width: 884px;
+    width: 90%;
     padding: 1.5em;
     margin: 3em auto;
   }
@@ -689,7 +689,7 @@ th {
 
   #content > #primary:not(:only-child) {
     float: left;
-    width: 65%;
+    width: 60%;
     padding: 1.5em 1.5em 1.5em 0;
     margin-bottom: -1.5em;
     position: relative;
@@ -716,7 +716,7 @@ th {
   #secondary,
   #sidebar {
     float: right;
-    width: 35%;
+    width: 40%;
     padding: 0 0 1.5em 1.5em;
     word-wrap: break-word;
     border-left: 1px solid #ddd;
