@@ -433,15 +433,10 @@ th {
     margin-bottom: 1.5em;
   }
 
-  h2 {
+  h2 , h3 {
     font-size: 24.5px;
     font-weight: bold;
     color: #9e9e9e;
-  }
-
-  h3 {
-    font-size: 17.5px;
-    color: #7B8D78;
   }
 
   h4 {
