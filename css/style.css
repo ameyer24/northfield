@@ -855,12 +855,10 @@ th {
     box-shadow: -3px -3px 0 rgba(0, 0, 0, 0.2), -6px -6px 0 rgba(0, 0, 0, 0.1);
     float: left;
     display: block;
-    height: 6em;
     margin: 0 1.5em 1.5em 6px;
   }
   .collection .image img,
   .exhibit .image img {
-    height: 6em;
     padding: 3px;
     border: 1px solid #ccc;
     background-color: #fff;
@@ -1218,6 +1216,9 @@ th {
     border-bottom-width: 0.07143em;
     border-bottom-style: solid;
     padding-bottom: 1.42857em;
+  }
+  p.collection-description {
+	clear: both;
   }
 
   .featured,

@@ -3,7 +3,7 @@ $pageTitle = __('Browse Collections');
 echo head(array('title'=>$pageTitle,'bodyclass' => 'collections browse')); 
 ?>
 
-
+<div id="primary">
     <h1><?php echo $pageTitle; ?> <?php echo __('(%s total)', $total_results); ?></h1>
     <?php echo pagination_links(); ?>
     
@@ -54,11 +54,13 @@ echo head(array('title'=>$pageTitle,'bodyclass' => 'collections browse'));
     <?php endif; ?>
     
     <?php echo fire_plugin_hook('public_collections_browse', array('collections'=>$collections, 'view' => $this)); ?>
-
+</div><!-- end primary -->
+<div id="secondary">
 
     <div id="featured-collection" class="featured">
         <h2><?php echo __('Featured Collection'); ?></h2>
         <?php echo random_featured_collection(); ?>
     </div><!-- end featured collection -->
-
+	
+</div><!-- end secondary -->
 <?php echo foot(); ?>
