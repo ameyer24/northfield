@@ -9,13 +9,14 @@
     </div>
     <?php endif; ?>
 
-    <?php echo all_element_texts($item); ?>
 
-    <?php fire_plugin_hook('public_items_show', array('view' => $this, 'item' => $item)); ?>
 
 </div><!-- end primary -->
 
 <div id="secondary">
+	<!-- The following returns all of the Dublin Core metadata for the element. -->
+	<?php echo all_element_texts($item); ?>
+    <?php fire_plugin_hook('public_items_show', array('view' => $this, 'item' => $item)); ?>
 
     <!-- The following returns all of the files associated with an item. -->
     <?php if ((get_theme_option('Item FileGallery') == 1) && metadata($item, 'has files')): ?>
