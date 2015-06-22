@@ -1347,9 +1347,7 @@ th {
   }
 
   .item img {
-    width: 6em;
-    height: auto;
-    padding: 3px;
+    padding: 2px;
     border: 1px solid #ccc;
     background-color: #fff;
     float: left;
