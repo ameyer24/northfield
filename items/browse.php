@@ -9,9 +9,7 @@ echo head(array('title'=>$pageTitle, 'bodyclass' => 'items browse'));
 
     <?php echo item_search_filters(); ?>
 
-    <ul class="items-nav navigation" id="secondary-nav">
-        <?php echo public_nav_items(); ?>
-    </ul>
+
 
     <?php echo pagination_links(); ?>
 
@@ -66,6 +64,10 @@ echo head(array('title'=>$pageTitle, 'bodyclass' => 'items browse'));
     <?php echo pagination_links(); ?>
 </div>
 <div id="secondary">
+    <ul class="items-nav navigation" id="secondary-nav">
+        <?php echo public_nav_items(); ?>
+    </ul>
+
     <!-- Featured Item -->
     <div id="featured-item" class="featured">
         <h2><?php echo __('Featured Item'); ?></h2>
