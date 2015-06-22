@@ -1492,8 +1492,8 @@ th {
     margin: 0 1.5em 1.5em 0;
   }
   .collections .item-img a {
-    display: block;
-	clear:both;
+    display: inline-block;
+	clear: both;
   }
   .collections .item-img img {
     height: 100%;
@@ -1503,7 +1503,7 @@ th {
     margin: 0;
     background-color: #fff;
   }
-
+  
   div.collection h2,
   div.exhibit h2,
   div.record h2 {
