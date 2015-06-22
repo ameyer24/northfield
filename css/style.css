@@ -1489,12 +1489,11 @@ th {
   }
 
   .collections .item-img {
-    float: left;
     margin: 0 1.5em 1.5em 0;
   }
   .collections .item-img a {
     display: block;
-    height: 6em;
+	clear:both;
   }
   .collections .item-img img {
     height: 100%;
