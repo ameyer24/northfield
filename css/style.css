@@ -430,7 +430,7 @@ th {
 
   h1 {
     font-size: 28px;
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
   }
 
   h2 , h3 {
@@ -440,7 +440,7 @@ th {
   }
 
   h4 {
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
     font-weight: bold;
     color: #7B8D78;
   }
@@ -1279,7 +1279,7 @@ th {
   /* @end */
   /* @group ----- Items ----- */
   .items.show #content > #primary {
-    padding-top: 1.5em;
+    padding-top: 1em;
   }
 
   .items.show #content #secondary {
@@ -1291,7 +1291,7 @@ th {
   .secondary-nav,
   #exhibit-child-pages {
     overflow: hidden;
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
     padding-left: 0;
   }
   .items-nav ul,
@@ -1362,7 +1362,7 @@ th {
 
   #itemfiles {
     overflow: hidden;
-    margin-bottom: 3em;
+    margin-bottom: 1em;
   }
 
   #itemfiles img,
@@ -1383,8 +1383,8 @@ th {
   }
 
   .element-text {
-    font-size: 14px;
-    margin-bottom: 3em;
+    font-size: 16px;
+    margin-bottom: 1em;
   }
 
   .element-text-empty {
@@ -1678,7 +1678,7 @@ th {
   }
 
   #content > #primary:not(:only-child) {
-    margin-bottom: 1.5em;
+    margin-bottom: 0.25em;
   }
 
   #secondary,
