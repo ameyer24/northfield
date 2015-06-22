@@ -556,7 +556,7 @@ th {
     border-width: 0.07143em;
     border-style: solid;
     padding: 0.30357em;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 21px;
     margin: 0.375em 0;
     max-width: 100%;
@@ -756,7 +756,7 @@ th {
   .pagination_next,
   .pagination_previous {
     background-color: #A49D4C;
-    font-size: 14px;
+    font-size: 16px;
     position: relative;
   }
   .pagination_next a,
@@ -982,7 +982,7 @@ th {
     margin-bottom: 1.5em;
   }
   #advanced-form label {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: normal;
   }
   #advanced-form input[type=checkbox],
