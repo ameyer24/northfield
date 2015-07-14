@@ -862,6 +862,7 @@ th {
     padding: 3px;
     border: 1px solid #ccc;
     background-color: #fff;
+	width: 200px;
   }
 
   /* @end */
