@@ -1308,21 +1308,21 @@ th {
   #exhibit-child-pages li {
     display: inline-block;
     float: left;
-    padding: 0;
-    margin: 0 10px 0 0;
   }
   .items-nav a,
   #secondary-nav a,
   .secondary-nav a,
   #exhibit-child-pages a {
     text-decoration: none;
-    display: block;
+    display: inline-block;
     float: left;
     padding: 0.75em;
+	margin: 1px;
     text-align: center;
     color: #fff;
     background: #A49D4C;
-    border-width: 0 1px 1px 0;
+	width: 50%;
+	min-width: 180px;
   }
   .items-nav a:hover,
   .items-nav li.active a,
@@ -1590,7 +1590,7 @@ th {
   }
 
   #exhibit-pages > ul > li {
-    margin-bottom: 1.5em;
+    margin-bottom: 0.25em;
   }
   #exhibit-pages ul {
     margin: 0;
