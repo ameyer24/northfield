@@ -1063,6 +1063,7 @@ th {
     border: 0;
     margin: 0;
     background-color: #843418;
+	min-width: 100%;
     z-index: 2;
   }
 
