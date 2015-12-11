@@ -442,7 +442,7 @@ th {
   h4 {
     margin-bottom: 1em;
     font-weight: bold;
-    color: #7B8D78;
+    color: #dddddd;
   }
 
   p, ul, ol, dl {
@@ -496,19 +496,19 @@ th {
   }
 
   a:link {
-    color: #843418;
+    color: #4a205f;
   }
 
   a:visited {
-    color: #A49D4C;
+    color: #bc4f9e;
   }
 
   a:hover {
-    color: #7B8D78;
+    color: #dddddd;
   }
 
   a:active {
-    color: #7B8D78;
+    color: #dddddd;
   }
 
   h1 a,
@@ -534,7 +534,7 @@ th {
 
   th {
     text-align: left;
-    color: #A49D4C;
+    color: #cdd64f;
     font-weight: bold;
     border-bottom: 2px solid #ddd;
   }
@@ -575,7 +575,7 @@ th {
     font-family: "Lato", sans-serif;
     font-size: 16px;
     line-height: 21px;
-    background-color: #A49D4C;
+    background-color: #cdd64f;
     color: #fff;
     border: 0;
     padding: 0.375em;
@@ -647,7 +647,7 @@ th {
     width: auto;
     padding: .5em;
     border: 1px blue dashed;
-    color: #A49D4C;
+    color: #cdd64f;
   }
 
   /* @end */
@@ -755,7 +755,7 @@ th {
 
   .pagination_next,
   .pagination_previous {
-    background-color: #A49D4C;
+    background-color: #cdd64f;
     font-size: 16px;
     position: relative;
   }
@@ -1003,7 +1003,7 @@ th {
     padding: 0;
     z-index: 15;
     float: left;
-    background-color: #843418;
+    background-color: #4a205f;
   }
   .nav-menu a {
     text-decoration: none;
@@ -1014,7 +1014,7 @@ th {
   }
   .nav-menu a:hover, .nav-menu a:focus {
     background-color: #000;
-    color: #dbd37b;
+    color: #ffffff; /* Could change the hover text. AJM_HOVER*/
   }
 
   /* a top level navigation item in the mega menu */
@@ -1062,7 +1062,7 @@ th {
     padding: 1.5em;
     border: 0;
     margin: 0;
-    background-color: #843418;
+    background-color: #4a205f;
 	min-width: 100%;
     z-index: 2;
   }
@@ -1149,7 +1149,7 @@ th {
     border-width: 0;
   }
   footer a:visited {
-    color: #843418;
+    color: #4a205f;
   }
 
   #footer-text {
@@ -1227,10 +1227,9 @@ th {
   .featured,
   #featured-exhibit {
     overflow: hidden;
-    background: #7B8D78;
-    color: #fff;
+    background: #dddddd;
     padding: 1.5em 1.5em 0;
-    border-color: #4F584D;
+    border-color: #835aa8;
     border-bottom-width: 0.21429em;
     border-bottom-style: solid;
     padding-bottom: 1.28571em;
@@ -1242,7 +1241,7 @@ th {
     font-weight: bold;
     margin: -1.5em -1.5em 1.2em;
     padding: 0.75em 1.5em;
-    background: #4F584D;
+    background: #835aa8;
     color: #fff;
   }
   .featured h3,
@@ -1251,7 +1250,7 @@ th {
   }
   .featured a,
   #featured-exhibit a {
-    color: #cac58c;
+    color: #000000;
   }
   .featured a:hover,
   #featured-exhibit a:hover {
@@ -1322,7 +1321,7 @@ th {
 	margin: 1px;
     text-align: center;
     color: #fff;
-    background: #A49D4C;
+    background: #cdd64f;
 	width: 50%;
 	min-width: 180px;
   }
@@ -1619,7 +1618,7 @@ th {
     display: block;
     padding: 0.75em;
     color: #fff;
-    background: #A49D4C;
+    background: #cdd64f;
     border-width: 0 1px 1px 0;
   }
   #exhibit-pages ul a:hover {
