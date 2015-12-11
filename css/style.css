@@ -442,7 +442,7 @@ th {
   h4 {
     margin-bottom: 1em;
     font-weight: bold;
-    color: #dddddd;
+    color: #7c7c7c;
   }
 
   p, ul, ol, dl {
@@ -497,6 +497,7 @@ th {
 
   a:link {
     color: #4a205f;
+	text-decoration: none;
   }
 
   a:visited {
@@ -504,11 +505,12 @@ th {
   }
 
   a:hover {
-    color: #dddddd;
+    color: #7c7c7c;
+	text-decoration: underline;
   }
 
   a:active {
-    color: #dddddd;
+    color: #7c7c7c;
   }
 
   h1 a,
@@ -585,7 +587,7 @@ th {
   input[type=submit]:hover,
   button:hover,
   a.button:hover {
-    background-color: #706b34;
+    background-color: #707070;
   }
 
   select {
@@ -661,7 +663,7 @@ th {
     overflow: hidden;
     background: #fff;
     width: 90%;
-    padding: 1.5em;
+    padding: 1em;
     margin: 3em auto;
   }
 
@@ -1177,7 +1179,7 @@ th {
   #search-filters > ul > li {
     padding: 0.75em 10px;
     background-color: #e2dfc0;
-    color: #706b34;
+    color: #707070;
   }
 
   #item-filters li li,
@@ -1442,7 +1444,7 @@ th {
   .asc a:after, .desc a:after {
     display: inline-block;
     font-family: "FontAwesome";
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   .asc a:after {
@@ -1627,7 +1629,7 @@ th {
     color: #fff;
   }
   #exhibit-pages .current > a {
-    background-color: #706b34;
+    background-color: #707070;
   }
 
   #exhibit-page-navigation {
