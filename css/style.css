@@ -1000,10 +1000,9 @@ th {
     position: relative;
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 0px 0px 10px 0px;
     z-index: 15;
     float: left;
-    background-color: #4a205f;
   }
   .nav-menu a {
     text-decoration: none;
@@ -1020,12 +1019,13 @@ th {
   /* a top level navigation item in the mega menu */
   .nav-item {
     list-style: none;
+	background-color: #4A205F;
     display: block;
     float: left;
-	width:25%;
+	width:24%;
 	text-align: center; 
     padding: 0;
-    margin: 0;
+    margin: 0 0.5% 0 0.5%;
     position: relative;
   }
 
