@@ -1293,6 +1293,7 @@ th {
   #secondary-nav,
   .secondary-nav,
   #exhibit-child-pages {
+	display: none;
     overflow: hidden;
     margin-bottom: 1em;
     padding-left: 0;
