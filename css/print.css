@@ -33,11 +33,9 @@ h5 {
   text-transform: uppercase;
 }
 
-a:link:after {
-  content: " (" attr(href) ") ";
-  font-size: 80%;
-}
 
+
+#site-title,
 #search-container,
 #primary-nav,
 #header-image,
@@ -45,7 +43,8 @@ a:link:after {
 .pagination,
 #exhibit-page-navigation,
 .exhibit-section-nav,
-.exhibit-page-nav {
+.exhibit-page-nav,
+#item-citation{
   display: none;
 }
 
