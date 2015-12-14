@@ -3,7 +3,7 @@ body {
 }
 
 #content {
-  width: 100%;
+  width: 50%;
   margin: 0;
   float: none;
 }
@@ -33,9 +33,11 @@ h5 {
   text-transform: uppercase;
 }
 
+a:link:after {
+  content: " (" attr(href) ") ";
+  font-size: 80%;
+}
 
-
-#site-title,
 #search-container,
 #primary-nav,
 #header-image,
@@ -43,8 +45,7 @@ h5 {
 .pagination,
 #exhibit-page-navigation,
 .exhibit-section-nav,
-.exhibit-page-nav,
-#item-citation{
+.exhibit-page-nav {
   display: none;
 }
 

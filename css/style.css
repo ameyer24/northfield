@@ -1746,6 +1746,7 @@ th {
   }
 }
 @media print {
+	@page {size: landscape}
   body {
     font-family: "Palatino Linotype", "Book Antiqua", "Times New Roman", Times, serif;
   }
@@ -1755,7 +1756,17 @@ th {
     margin: 0;
     float: none;
   }
-
+ #primary {
+	 width: 49%;
+	 float: left;
+ }
+ #secondary {
+	width: 49%;
+	float: right;
+ }
+  img {
+	 max-width:100%;
+ }
   h1,
   #site-title {
     font-size: 16pt;
@@ -1781,11 +1792,8 @@ th {
     text-transform: uppercase;
   }
 
-  a:link:after {
-    content: " (" attr(href) ") ";
-    font-size: 80%;
-  }
 
+  #site-title,
   #search-container,
   #primary-nav,
   #header-image,
@@ -1793,7 +1801,7 @@ th {
   .pagination,
   #exhibit-page-navigation,
   .exhibit-section-nav,
-  .exhibit-page-nav {
+  .exhibit-page-nav , #footer-text, #item-citation{
     display: none;
   }
 
