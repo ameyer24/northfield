@@ -1164,6 +1164,7 @@ th {
   #item-filters ul,
   #search-filters ul {
     margin: 0;
+    padding-left:0;
   }
   #item-filters ul ul,
   #search-filters ul ul {
@@ -1543,9 +1544,9 @@ th {
     width: -moz-calc(35% - 1.5em);
     width: -webkit-calc(35% - 1.5em);
     width: calc(35% - 1.5em);
-    float: right;
+    float: left;
     position: relative;
-    overflow: visible;
+    overflow: hidden;
     margin-bottom: -1.5em;
     padding: 1.5em 0;
   }
