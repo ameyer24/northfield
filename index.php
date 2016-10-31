@@ -7,6 +7,17 @@
     </div>
 <?php endif; ?>
 
+<!-- Shortcode slider   -->
+<div id="home_slider">
+	<h1>Featured Items</h1>
+	<?php echo $this->shortcodes('[carousel is_featured=1 showtitles=true]');?>
+</div>
+<!-- Shortcode map   -->
+<div id="home_map">
+	<h1>Geolocation</h1>
+	<?php echo $this->shortcodes('[geolocation]');?>
+</div>
+
 <div id="primary">
 
     <?php if (get_theme_option('Display Featured Item') !== '0'): ?>
